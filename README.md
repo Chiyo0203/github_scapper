@@ -14,7 +14,7 @@ A command-line tool for scraping GitHub profiles to extract information about re
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/github-scraper-tool.git
+   git clone https://github.com/Chiyo0203/github_scapper.git
 2. Navigate into the project directory:
    
    ```bash
