@@ -6,6 +6,9 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from .config import CHROME_DRIVER_PATH, TARGET_URL
 
+# try adding path of your chromedriver instead of importing from config
+chrome_driver_path = r"D:\HP\chromedriver-win64\chromedriver-win64\chromedriver.exe"
+
 class GitHubScraper:
     def __init__(self):
         self.driver = webdriver.Chrome(service=Service(CHROME_DRIVER_PATH))
