@@ -23,4 +23,7 @@ A command-line tool for scraping GitHub profiles to extract information about re
 3. Install the required Python packages:
      ```bash
      pip install -r requirements.txt
+4. Run the Scraper Tool
 
+   ```bash
+   python main.py
